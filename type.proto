@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "google/api/annotations.proto";
+
+option go_package="gitlab.sh.sensetime.com/keystone/common";
+option java_package="com.sensetime.keystone.common";
+package sensetime.keystone.common;
+
+message Tenant {
+  string name = 1;
+  string description = 2;
+}
